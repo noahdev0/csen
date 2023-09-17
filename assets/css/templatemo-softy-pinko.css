@@ -1015,10 +1015,13 @@ partners
 
 .clients1_logo {
   max-height: 4rem;
-  min-height: 4rem;
+  width :100%;
   filter: none;
   object-fit: contain;
   filter: grayscale(100%);
+display : flex;
+justify-content:center ;
+align-items:center;
 }
 
 .clients1_logo:nth-child(2) {
